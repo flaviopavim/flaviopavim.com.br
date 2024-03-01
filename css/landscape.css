@@ -1,0 +1,73 @@
+/* 
+    Created on : 26 de out. de 2023, 20:50:08
+    Author     : Flávio Pavim
+*/
+
+body {
+
+    /*night*/
+    /*background: rgb(33,40,111);*/
+    /*    background: linear-gradient(0deg, rgba(33,40,111,1) 19%, rgba(0,0,0,1) 100%);
+        background-size: 100% 100%;*/
+
+
+    /*background: #010101;*/
+    /*background: linear-gradient(180deg, #010101, #323A68);*/
+    width: 100%;
+    height: 100%;
+}
+
+#sun {
+    display: block;
+/*    width: 120px;
+    height: 120px;*/
+    /*background-color: #FFBF00;*/
+
+    border-radius: 50%;
+
+    position: fixed;
+    top: -70px;
+    /*left: 10px;*/
+    left: -1000px;
+}
+#sun img {
+    display: block;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+}
+#moon {
+    display: block;
+/*    width: 80px;
+    height: 80px;*/
+    /*background-color: #ccc;*/
+
+    border-radius: 50%;
+
+    position: fixed;
+    top: 15px;
+    /*right: 10px;*/
+    
+    left: -1000px;
+}
+#moon img {
+    display: block;
+    width: 120px;
+    height: 120px;
+}
+
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+canvas {
+    /*display: block;*/
+    /*display: none;*/
+    opacity: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}

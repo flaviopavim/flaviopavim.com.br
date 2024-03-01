@@ -1,0 +1,14 @@
+/* 
+    Created on : 29 de jul. de 2023, 19:26:18
+    Author     : Flávio Pavim
+*/
+
+@font-face {
+    font-family: 'Teko';
+    /*src: url('../font/Teko/Teko-Light.ttf') format('truetype');*/
+    src: url('../font/Teko/Teko-Medium.ttf') format('truetype');
+}
+
+.teko {
+    font-family: 'Teko';
+}

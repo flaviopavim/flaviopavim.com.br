@@ -1,0 +1,36 @@
+/* 
+    Created on : 29 de jul. de 2023, 19:26:43
+    Author     : Flávio Pavim
+*/
+
+* {
+    box-sizing: border-box;
+    font-weight: 100;
+}
+
+h1,h2,h3,h4,h5 {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover {
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+}
+
+html,body,* {
+    overflow-x: none;
+}
+
+body {
+                margin: 0;
+                overflow: hidden;
+                background-color: #0b0b0b;
+            }
+            canvas {
+                display: block;
+            }

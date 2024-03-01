@@ -1,0 +1,262 @@
+/* 
+    Created on : 28 de jul. de 2023, 20:40:53
+    Author     : Flávio Pavim
+*/
+
+
+#language {
+    position: absolute;
+    /*top: -48px;*/
+    right: 10px;
+    top: 10px;
+}
+#pt-br,
+#usa {
+    width: 60px;
+    height: 38px;
+    cursor: pointer;
+}
+#pt-br {
+    
+}
+#usa {
+    
+}
+
+
+.desktop {
+    display: block;
+}
+.mobile {
+    display: none;
+}
+
+
+@media screen and (max-width: 800px) {
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+}
+
+
+.br-15 {
+    clear: both;
+    height: 15px;
+}
+.br-30 {
+    /*display: block;*/
+    clear: both;
+    height: 30px;
+}
+
+.my-container {
+    width: 1200px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+@media screen and (max-width: 1200px) {
+    .my-container {
+        width: 100%;
+    }
+}
+
+body {
+    background-color: #1b1b1b;
+    font-family: 'Teko';
+    font-size: 25px;
+}
+
+nav {
+    display: block;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 350px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+    list-style-type: none;
+    
+    width: 20%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    
+    
+    -webkit-transform: skew(-30deg);
+    -moz-transform: skew(-30deg);
+    -ms-transform: skew(-30deg);
+    -o-transform: skew(-30deg);
+    transform: skew(-30deg);
+}
+
+nav ul li a,
+nav ul li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li div {
+    -webkit-transform: skew(30deg);
+    -moz-transform: skew(30deg);
+    -ms-transform: skew(30deg);
+    -o-transform: skew(30deg);
+    transform: skew(30deg);
+}
+
+
+
+
+#close {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    float: right;
+}
+
+
+section {
+    display: none;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 100px;
+    /*background-color: #f3f3f3;*/
+}
+/*
+section:nth-child(even) {
+    background-color: #ccc;
+}*/
+
+.page {
+    background-color: #fff;
+    padding: 15px 30px;
+    overflow-y: auto;
+}
+
+hr {
+    border-top-color: #ccc;
+    border-top-style: dashed;
+    margin: 60px 0;
+}
+
+.video {
+    width: 100%;
+    aspect-ratio: auto 16/9;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    #services-button {
+        font-size: 18px !important;
+    }
+}
+
+
+
+#me {
+    display: block;
+    width: 300px;
+    float: left;
+    margin: 0 15px 15px 0;
+}
+@media screen and (max-width: 700px) {
+    #me {
+        width: 100%;
+        margin: 0 0 15px 0;
+    }
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.contact-list > li {
+    list-style: none;
+}
+.contact-list > li > a,
+.contact-list > li > hover {
+    color: #444;
+}
+.contact-list > li > img {
+    width: 30px;
+    margin: 0 5px -10px 0;
+}
+
+.contato-left {
+    display: block;
+    width: 50%;
+    float: left;
+}
+.contato-right {
+    display: block;
+    width: 50%;
+    float: left;
+    padding: 50px;
+}
+
+@media screen and (max-width: 700px) {
+    .contato-left,
+    .contato-right {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+canvas {
+    display: block;
+/*    width: 100%;
+    height: 100%;*/
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+
+input,
+button,
+textarea {
+    display: block;
+    padding: 15px;
+}
+input,
+textarea {
+    width: 100%;
+    margin-bottom: 15px;
+}
+textarea {
+    resize: none;
+    height: 120px;
+}
+button {
+    float: right;
+    background-color: #3333da;
+    border: 0;
+    
+    color: #fff;
+    cursor: pointer;
+    
+    /*font-family: 'Teko';*/
+}

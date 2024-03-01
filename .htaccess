@@ -1,0 +1,33 @@
+RewriteEngine On
+
+# remove /index.html if entered directly in URL
+RewriteCond %{THE_REQUEST} /index\.php [NC]
+RewriteCond %{REQUEST_URI} ^(.*/)index\.php [NC]
+RewriteRule ^ %1 [L,R=301,NE]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME}\.php -f
+#RewriteRule ^(?!index\.php|Pages)(.*)$ index.php?0=$1 [L,NC]
+
+RewriteRule ^(.*)$ index.php
+
+
+
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+    RewriteCond %{THE_REQUEST} /index\.php [NC]
+RewriteCond %{REQUEST_URI} ^(.*/)index\.php [NC]
+RewriteRule ^ %1 [L,R=301,NE]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME}\.php -f
+#RewriteRule ^(?!index\.php|Pages)(.*)$ index.php?0=$1 [L,NC]
+
+RewriteRule ^(.*)$ index.php
+</IfModule>

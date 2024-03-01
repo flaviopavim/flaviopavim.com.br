@@ -1,0 +1,39 @@
+/* 
+    Created on : 29 de jul. de 2023, 19:25:59
+    Author     : Flávio Pavim
+*/
+
+.dark {
+    display: none;
+    background-color: #333;
+}
+
+.red {
+    background-color: #da3333;
+    color: #fff;
+}
+
+.orange {
+    background-color: #cc6633;
+    color: #fff;
+}
+
+.yellow {
+    background-color: #da9933;
+    color: #fff;
+}
+
+.green {
+    background-color: #66aa33;
+    color: #fff;
+}
+
+.blue {
+    background-color: #3333da;
+    color: #fff;
+}
+
+.purple {
+    background-color: #712580;
+    color: #fff;
+}
