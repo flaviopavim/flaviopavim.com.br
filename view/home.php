@@ -184,8 +184,8 @@
             
 <!--                <br>
                 <div>Sou desenvolvedor à 17 anos, faço sites, aplicativos, programas de computador, automação e softwares pra máquinas</div>-->
+<!--                <br>
                 <br>
-                <!--<br>-->
                 <br>
 
                 
@@ -228,7 +228,7 @@
 
                 <div class="title">Sistemas operacionais</div> 
                 <br>
-                <div id="os"></div>
+                <div id="os"></div>-->
             
             
             
