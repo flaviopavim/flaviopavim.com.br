@@ -212,16 +212,32 @@ if (empty($_SESSION['lng'])) {
     </div>
 
     <!-- TODO: VMG -->
+    
+    
+    <hr>
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Flávia Mattioli</h2>
+            <br>
+            Site criado com carinho para a psicóloga Flávia Matiolli.
+            <br>
+            <br>
+            Website: <a href="https://flaviamattioli.com.br/" target="_blank">https://flaviamattioli.com.br/</a>
+            <br>
+            <br>
+            O site possui cores suaves e um design responsivo com efeitos.
+        </div>
+
+        <div class="col-md-6">
+            <img class="img-responsive" src="img/work/flaviamattioli.png">
+        </div>
+    </div>
 
     <hr>
     <div class="row">
-        <!--                        <div class="col-md-6">
-                                    <img class="img-responsive" src="img/work/whitehats.jfif">
-                                </div>-->
         <div class="col-md-8">
             <h2>Naoradoclick</h2>
             <br>
-            <!--<br>-->
             Site feito para o trabalho do fotógrafo Carlos Melo. O site traz àlbuns de diversos temas.
             <br>
             <br>
@@ -242,19 +258,19 @@ if (empty($_SESSION['lng'])) {
                     <img class="img-responsive" src="img/work/naoradoclick-adm-2.png">
                 </div>
             </div>
-
         </div>
-
         <div class="col-md-4">
             <img class="img-responsive" src="img/work/naoradoclick.jfif">
         </div>
     </div>
 
+    <!--<a onclick=next()"">Next</a>-->
 </div>
 <!--</section>-->
 
 
-<?php } else if ($_SESSION['lng'] == 'eng') { ?>
+<?php // } else if ($_SESSION['lng'] == 'eng') { ?>
+<?php } else { ?>
 <!--<section id="works">-->
 <div class="my-container page">
     <!--<h2>Completed Projects</h2>-->
@@ -427,6 +443,25 @@ if (empty($_SESSION['lng'])) {
     </div>
 
     <!-- TODO: VMG -->
+
+    <hr>
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Flávia Mattioli</h2>
+            <br>
+            Website created for Flávia Mattioli psychologist's work.
+            <br>
+            <br>
+            Website: <a href="https://flaviamattioli.com.br/" target="_blank">https://flaviamattioli.com.br/</a>
+            <br>
+            <br>
+            The site have flat design colors and a responsive design that adapts to various screen types.
+        </div>
+
+        <div class="col-md-6">
+            <img class="img-responsive" src="img/work/flaviamattioli.png">
+        </div>
+    </div>
 
     <hr>
     <div class="row">

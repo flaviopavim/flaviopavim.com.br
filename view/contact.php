@@ -159,9 +159,9 @@
                         <a href="https://wa.me/5518996626124" target="_blank" class="whatsapp" title="WhatsApp" alt="WhatsApp">+55 (18) 99662-6124</a>
                     </li>
                 </ul>
-                <ul class="contact-list">
+<!--                <ul class="contact-list">
                     <li><a href="#" class="default" title="Mobile" alt="Mobile">Mobile: (67) 9 9312-9223</a></li>
-                </ul>
+                </ul>-->
                 <ul class="contact-list">
                     <li>
                         <img src="img/social/github.png" title="GitHub" alt="GitHub"/>

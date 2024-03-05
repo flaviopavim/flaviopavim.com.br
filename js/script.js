@@ -11,11 +11,38 @@ var work_loaded=false;
 
 function openSite(page) {
     
+//    $('nav ul li').animate({
+//        transform: 'skew(0deg)'
+//    });
+//
+//    $('nav ul li div').animate({
+//        transform: 'skew(0deg)'
+//    });
+
+    var navListItems = document.querySelectorAll('nav ul li');
+    var navDivs = document.querySelectorAll('nav ul li div');
+
+    // Apply skew transformation to list items
+    navListItems.forEach(function(item) {
+        item.style.transform = 'skew(0deg)';
+        item.style.webkitTransform = 'skew(0deg)';
+        item.style.mozTransform = 'skew(0deg)';
+        item.style.msTransform = 'skew(0deg)';
+        item.style.oTransform = 'skew(0deg)';
+    });
+
+    // Apply skew transformation to div elements
+    navDivs.forEach(function(div) {
+        div.style.transform = 'skew(0deg)';
+        div.style.webkitTransform = 'skew(0deg)';
+        div.style.mozTransform = 'skew(0deg)';
+        div.style.msTransform = 'skew(0deg)';
+        div.style.oTransform = 'skew(0deg)';
+    });
+    
     if (page=='works' && !work_loaded) {
-//        alert('oi');
         $.ajax({
             method: "POST",
-    //        url: "ajax/index.php",
             url: "./view/"+page+".php",
         }).done(function (response) {
             
@@ -34,9 +61,43 @@ function openSite(page) {
 }
 
 function closeSite() {
+    
+//    $('nav ul li').animate({
+//        transform: 'skew(-30deg)'
+//    });
+//
+//    $('nav ul li div').animate({
+//        transform: 'skew(30deg)'
+//    });
+
+   
+    
     $('section').stop().fadeOut(200, function () {
         $('#close').stop().fadeOut(200, function () {
             $('nav').stop().animate({top: 350}, 200, function () {
+                
+                
+                var navListItems = document.querySelectorAll('nav ul li');
+                var navDivs = document.querySelectorAll('nav ul li div');
+
+                // Apply skew transformation to list items
+                navListItems.forEach(function(item) {
+                    item.style.transform = 'skew(-30deg)';
+                    item.style.webkitTransform = 'skew(-30deg)';
+                    item.style.mozTransform = 'skew(-30deg)';
+                    item.style.msTransform = 'skew(-30deg)';
+                    item.style.oTransform = 'skew(-30deg)';
+                });
+
+                // Apply skew transformation to div elements
+                navDivs.forEach(function(div) {
+                    div.style.transform = 'skew(30deg)';
+                    div.style.webkitTransform = 'skew(30deg)';
+                    div.style.mozTransform = 'skew(30deg)';
+                    div.style.msTransform = 'skew(30deg)';
+                    div.style.oTransform = 'skew(30deg)';
+                });
+                
                 $('#home-button,#works-button,#skills-button,#videos-button,#contact-button').show().css({opacity: 0});
                 $('#' + actual + '-button').css({opacity: 1});
                 $('#home-button,#works-button,#skills-button,#videos-button,#contact-button').stop().animate({width: '20%'}, function () {
@@ -220,7 +281,6 @@ function getLayout(hour) {
         }
     }
 
-
 //    $('#sun').stop().animate({left: map(hour, 6, 18, 0, width - 40)});
     if (hour >= 18 && hour <= 23) {
         
@@ -240,9 +300,6 @@ function getLayout(hour) {
         $('#moon').stop().animate({left: map(hour, 0, 6, (width / 2) + 80, width - 40)});
     }
 }
-
-
-
 
 function getTime() {
     $.ajax({
@@ -269,9 +326,6 @@ window.setTimeout(function () {
 }, 8000);
 
 
-
-
-
 var count=0;
 function add(div,title,pct) {
     $('#'+div).append(
@@ -287,65 +341,65 @@ function add(div,title,pct) {
     $('#skill-'+count+' .skill-bar-progress').animate({width:pct+'%'});
     count++;
 }
-$(document).ready(function(){
-    add('general','Sites',100);
-    add('general','Aplicativos',100);
-    add('general','Programas desktop',100);
-    add('general','Arduino',95);
-    add('general','Raspberry',70);
-    add('general','Automação',60);
-    add('general','Hardware',60);
-    add('general','Eletrônica',30);
-
-    add('skills','HTML5',100);
-    add('skills','CSS3',100);
-    add('skills','Javascript',100);
-    add('skills','PHP',100);
-    add('skills','Dart (Flutter)',80);
-    add('skills','SQL',70);
-    add('skills','C#',70);
-    add('skills','Java',70);
-    add('skills','Python',70);
-    add('skills','ActionScript (RIP)',70);
-    add('skills','C++',60);
-    add('skills','C',40);
-    add('skills','Delphi',30);
-    add('skills','Objective-c',20);
-    add('skills','Swift',20);
-
-    add('frameworks','Git',90);
-    add('frameworks','Node.js',90);
-    add('frameworks','Npm',90);
-    add('frameworks','jQuery',90);
-    add('frameworks','Bootstrap',90);
-    add('frameworks','React',70);
-    add('frameworks','Ionic',60);
-    add('frameworks','Apache Cordova',60);
-    add('frameworks','Springboot',50);
-    add('frameworks','Yii 2',50);
-    add('frameworks','Laravel',40);
-    add('frameworks','P5',40);
-    add('frameworks','Selenium (Python)',20);
-    add('frameworks','Numpy',20);
-    add('frameworks','Composer',20);
-    add('frameworks','Angular',20);
-    add('frameworks','Vue.js',10);
-
-    add('others','Api Rest',100);
-    add('others','DOS',90);
-    add('others','SOAP',65);
-    add('others','Wordpress',60);
-    add('others','Shell Script',30);
-
-    add('more','Inkscape',75);
-    add('more','Corel Draw',70);
-    add('more','Office',70);
-    add('more','Photoshop',60);
-    add('more','Fireworks',60);
-    add('more','InDesign',40);
-    add('more','Gimp',40);
-
-    add('os','Windows',95);
-    add('os','Linux',80);
-    add('os','MacOS',30);
-});
+//$(document).ready(function(){
+//    add('general','Sites',100);
+//    add('general','Aplicativos',100);
+//    add('general','Programas desktop',100);
+//    add('general','Arduino',95);
+//    add('general','Raspberry',70);
+//    add('general','Automação',60);
+//    add('general','Hardware',60);
+//    add('general','Eletrônica',30);
+//
+//    add('skills','HTML5',100);
+//    add('skills','CSS3',100);
+//    add('skills','Javascript',100);
+//    add('skills','PHP',100);
+//    add('skills','Dart (Flutter)',80);
+//    add('skills','SQL',70);
+//    add('skills','C#',70);
+//    add('skills','Java',70);
+//    add('skills','Python',70);
+//    add('skills','ActionScript (RIP)',70);
+//    add('skills','C++',60);
+//    add('skills','C',40);
+//    add('skills','Delphi',30);
+//    add('skills','Objective-c',20);
+//    add('skills','Swift',20);
+//
+//    add('frameworks','Git',90);
+//    add('frameworks','Node.js',90);
+//    add('frameworks','Npm',90);
+//    add('frameworks','jQuery',90);
+//    add('frameworks','Bootstrap',90);
+//    add('frameworks','React',70);
+//    add('frameworks','Ionic',60);
+//    add('frameworks','Apache Cordova',60);
+//    add('frameworks','Springboot',50);
+//    add('frameworks','Yii 2',50);
+//    add('frameworks','Laravel',40);
+//    add('frameworks','P5',40);
+//    add('frameworks','Selenium (Python)',20);
+//    add('frameworks','Numpy',20);
+//    add('frameworks','Composer',20);
+//    add('frameworks','Angular',20);
+//    add('frameworks','Vue.js',10);
+//
+//    add('others','Api Rest',100);
+//    add('others','DOS',90);
+//    add('others','SOAP',65);
+//    add('others','Wordpress',60);
+//    add('others','Shell Script',30);
+//
+//    add('more','Inkscape',75);
+//    add('more','Corel Draw',70);
+//    add('more','Office',70);
+//    add('more','Photoshop',60);
+//    add('more','Fireworks',60);
+//    add('more','InDesign',40);
+//    add('more','Gimp',40);
+//
+//    add('os','Windows',95);
+//    add('os','Linux',80);
+//    add('os','MacOS',30);
+//});
