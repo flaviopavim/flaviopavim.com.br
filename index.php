@@ -76,13 +76,11 @@ function translate($phrase) {
         return $phrase;
 
     } else if ($_SESSION['lng']=='eng') {
-        
+        //english
         return $phrase;
-
     } else {
-        
+        //klingon
         $lang=array(
-
             //nav
             'Flávio Pavim'=>'Flávio Pavim',
             'Skills'=>'chu\'wI\'',
@@ -92,14 +90,11 @@ function translate($phrase) {
             'Videos'=>'vIDyo',
             'Contact'=>'ghItlh',
         );
-        
         if (!empty($lang[$phrase])) {
             return $lang[$phrase];
         }
         return $phrase;
-        
 //        return strrev($phrase);
-
     }
 }
 
@@ -128,15 +123,6 @@ if (!empty($_POST['form-contact'])) {
     } else {
         echo '<script>alert("Ocorreu um erro ao enviar o email."); window.location.href = "./";</script>';
     }
-//        } else {
-//            echo '<script>alert("O endereço de email fornecido é inválido."); window.location.href = "./";</script>';
-//        }
-//    } else {
-//        //token inválido
-////        $_SESSION['alert'] = 'Token inválido';
-//        echo '<script>alert("Token inválido.");  window.location.href = "./"</script>';
-//    }
-
     exit;
 }
 ?>

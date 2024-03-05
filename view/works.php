@@ -190,7 +190,7 @@ if (empty($_SESSION['lng'])) {
             Aplicativo para criptografar e descriptografar mensagens. Guarde com segurança o que é seu. Adicione uma palavra-chave de segurança e salve seus textos em locais seguros
             <br>
             <br>
-            Na PlayStore: <a href="https://play.google.com/store/apps/details?id=br.com.whitehats.bluetooth" target="_blank">https://play.google.com/store/apps/details?id=br.com.whitehats.bluetooth</a>
+            Na PlayStore: <a href="https://play.google.com/store/apps/details?id=br.com.whitehats.crypt" target="_blank">https://play.google.com/store/apps/details?id=br.com.whitehats.crypt</a>
             <br>
             <br>
             Em breve mais criptografias no aplicativos ;)
@@ -405,7 +405,7 @@ if (empty($_SESSION['lng'])) {
             App for encrypting and decrypting messages. Safely store what's yours. Add a security keyword and save your texts in secure locations.
             <br>
             <br>
-            On PlayStore: <a href="https://play.google.com/store/apps/details?id=br.com.whitehats.bluetooth" target="_blank">https://play.google.com/store/apps/details?id=br.com.whitehats.bluetooth</a>
+            On PlayStore: <a href="https://play.google.com/store/apps/details?id=br.com.whitehats.crypt" target="_blank">https://play.google.com/store/apps/details?id=br.com.whitehats.crypt</a>
             <br>
             <br>
             More encryptions coming soon to the app ;)
