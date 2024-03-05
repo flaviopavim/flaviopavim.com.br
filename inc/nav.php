@@ -23,6 +23,7 @@
                 <div class="mobile"><?php echo translate('Contact'); ?></div>
             </li>
             <a id="close" class="dark">X</a>
+            <a id="next" class="green">&gt;</a>
         </ul>
     </div>
 </nav>

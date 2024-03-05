@@ -6,19 +6,12 @@
 var opened = false;
 var changing = false;
 var actual = '';
+var next = '';
 
 var work_loaded=false;
 
 function openSite(page) {
     
-//    $('nav ul li').animate({
-//        transform: 'skew(0deg)'
-//    });
-//
-//    $('nav ul li div').animate({
-//        transform: 'skew(0deg)'
-//    });
-
     var navListItems = document.querySelectorAll('nav ul li');
     var navDivs = document.querySelectorAll('nav ul li div');
 
@@ -53,7 +46,7 @@ function openSite(page) {
     
     actual = page;
     $('nav').stop().animate({top: 50}, 200, function () {
-        $('#close, #' + page).stop().fadeIn(200, function () {
+        $('#next, #close, #' + page).stop().fadeIn(200, function () {
             changing = false;
             opened = true;
         });
@@ -62,18 +55,8 @@ function openSite(page) {
 
 function closeSite() {
     
-//    $('nav ul li').animate({
-//        transform: 'skew(-30deg)'
-//    });
-//
-//    $('nav ul li div').animate({
-//        transform: 'skew(30deg)'
-//    });
-
-   
-    
     $('section').stop().fadeOut(200, function () {
-        $('#close').stop().fadeOut(200, function () {
+        $('#next, #close').stop().fadeOut(200, function () {
             $('nav').stop().animate({top: 350}, 200, function () {
                 
                 
@@ -102,6 +85,17 @@ function closeSite() {
                 $('#' + actual + '-button').css({opacity: 1});
                 $('#home-button,#works-button,#skills-button,#videos-button,#contact-button').stop().animate({width: '20%'}, function () {
                     $('#home-button,#works-button,#skills-button,#videos-button,#contact-button').stop().animate({opacity: 1}, function () {
+                        if (actual=='home') {
+                            next='skills';
+                        } else if (actual=='skills') {
+                            next='works';
+                        } else if (actual=='works') {
+                            next='videos';
+                        } else if (actual=='videos') {
+                            next='contact';
+                        } else if (actual=='contact') {
+                            next='home';
+                        }
                         actual = '';
                         changing = opened = false;
                     });
@@ -188,6 +182,25 @@ function openContact() {
     }
 }
 
+function goNext() {
+    if (!changing && opened) {
+        closeMe();
+        setTimeout(function(){
+            if (next=='home') {
+                openHome();
+            } else if (next=='skills') {
+                openSkills();
+            } else if (next=='works') {
+                openWorks();
+            } else if (next=='videos') {
+                openVideos();
+            } else if (next=='contact') {
+                openContact();
+            }
+        },1800);
+    }
+}
+
 $(function () {
 //    openHome();
     $('#home-button').click(function () {
@@ -206,10 +219,18 @@ $(function () {
         openContact();
     });
 
+    $('#next').click(function () {
+        goNext();
+    });
+    
     $('#close').click(function () {
         closeMe();
     });
+    
     $(window).keyup(function (e) {
+        if (e.keyCode === 39) {
+            goNext();
+        }
         if (e.keyCode === 27) {
             closeMe();
         }

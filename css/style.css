@@ -117,14 +117,26 @@ nav ul li div {
 
 
 
-
+#next,
 #close {
+    display: none;
     width: 50px;
     height: 50px;
     text-align: center;
     color: #fff;
     line-height: 50px;
     float: right;
+/*    clip-path: 
+        polygon(
+          0% 5px,               
+          5px 0%,               
+          calc(100% - 5px) 0%,  
+          100% 5px,             
+          100% calc(100% - 5px),
+          100% 100%,
+          100% 100%,
+          0 100%
+        );*/
 }
 
 
