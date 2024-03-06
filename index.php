@@ -162,20 +162,19 @@ if (!empty($_POST['form-contact'])) {
         <link href="css/videos.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <?php if (1 == 2) { ?>
-            <?php if (date('m') == 12) { ?>
-                <canvas id="snowCanvas"></canvas>
-                <script src="js/snowfall.js" type="text/javascript"></script>
-            <?php } else if ((date('H') >= 19 and date('H') <= 23) or (date('H') >= 0 and date('H') < 2)) { ?>
-                <script src="js/map.js" type="text/javascript"></script>
-                <canvas id="stars"></canvas>
-                <script src="js/stars.js" type="text/javascript"></script>
-                <canvas id="moon" width="200" height="200"></canvas>
-                <script src="js/moon.js" type="text/javascript"></script>
-            <?php } else if (date('H') >= 2 and date('H') <= 4) { ?>
-                <canvas id="matrixCanvas"></canvas>
-                <script src="js/matrix.js" type="text/javascript"></script>
-            <?php } ?>
+        
+        <?php if (date('m') == 12) { ?>
+            <canvas id="snowCanvas"></canvas>
+            <script src="js/snowfall.js" type="text/javascript"></script>
+        <?php } else if ((date('H') >= 19 and date('H') <= 23) or (date('H') >= 0 and date('H') < 3)) { ?>
+            <script src="js/map.js" type="text/javascript"></script>
+            <canvas id="stars"></canvas>
+            <script src="js/stars.js" type="text/javascript"></script>
+<!--            <canvas id="moon" width="200" height="200"></canvas>
+            <script src="js/moon.js" type="text/javascript"></script>-->
+        <?php } else if (date('H') >= 3 and date('H') <= 4) { ?>
+            <canvas id="matrixCanvas"></canvas>
+            <script src="js/matrix.js" type="text/javascript"></script>
         <?php } ?>
         <div id="language">
             <a href="?lng=pt-br"><img id="pt-br" src="img/flag/brasil.png" alt=""/></a>

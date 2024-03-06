@@ -15,9 +15,9 @@ for (let i = 0; i < columns; i++) {
 }
 
 function drawMatrix() {
-    ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+    ctx.fillStyle = "rgba(0, 0, 0, 0.03)";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
-    ctx.fillStyle = "#0F0"; // Cor dos caracteres
+    ctx.fillStyle = "#060"; // Cor dos caracteres
     ctx.font = `${fontSize}px monospace`;
     for (let i = 0; i < drops.length; i++) {
         const text = characters[Math.floor(Math.random() * characters.length)];

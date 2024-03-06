@@ -8,7 +8,8 @@ function createStars() {
         const x = Math.random() * stars_canvas.width;
         const y = Math.random() * stars_canvas.height;
         const size = Math.random() * 2; // Random star size
-        const speed = 0.2 + Math.random() * 0.5; // Adjust the speed as per your preference
+//        const speed = 0.2 + Math.random() * 0.3; // Adjust the speed as per your preference
+        const speed = 0.1 + Math.random() * 0.2; // Adjust the speed as per your preference
 
         stars.push({x, y, size, speed});
     }

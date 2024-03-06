@@ -203,7 +203,6 @@ function goNext() {
 }
 
 $(function () {
-//    openHome();
     $('#home-button').click(function () {
         openHome();
     });
@@ -285,14 +284,12 @@ function getLayout(hour) {
             $('body').stop().animate({backgroundColor: '#ccc'});
         } else if (hour >= 9 && hour <= 11) {
             //manhã
-//                        $('body').css({backgroundColor:'#ccc'});
             $('body').stop().animate({backgroundColor: '#eee'});
         } else if (hour == 12) {
             //meio do dia
             $('body').stop().animate({backgroundColor: '#f3f3f3'});
         } else if (hour >= 13 && hour <= 15) {
             //tarde
-//            $('body').stop().animate({backgroundColor: '#f6dccc'});
             $('body').stop().animate({backgroundColor: '#529'});
         } else if (hour >= 16 && hour < 18) {
             //tardezinha
@@ -300,13 +297,9 @@ function getLayout(hour) {
         }
     }
 
-//    $('#sun').stop().animate({left: map(hour, 6, 18, 0, width - 40)});
     if (hour >= 18 && hour <= 23) {
         
         var time = new Date();
-
-//    var hour = time.getHours();
-//    var hour = 18;
         var min = time.getMinutes();
         
         var w=$(window).width();
@@ -360,6 +353,7 @@ function add(div,title,pct) {
     $('#skill-'+count+' .skill-bar-progress').animate({width:pct+'%'});
     count++;
 }
+
 //$(document).ready(function(){
 //    add('general','Sites',100);
 //    add('general','Aplicativos',100);
