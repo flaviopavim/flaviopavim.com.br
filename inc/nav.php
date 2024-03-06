@@ -6,7 +6,6 @@
                 <div class="mobile">Home</div>
             </li>
             <li id="skills-button" class="orange">
-                <!--Habilidades-->
                 <div class="desktop"><?php echo translate('Skills'); ?></div>
                 <div class="mobile"><?php echo translate('About'); ?></div>
             </li>

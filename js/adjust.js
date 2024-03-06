@@ -8,9 +8,11 @@ function adjust() {
 $(function(){
     adjust();
 });
+
 $(document).ready(function(){
     adjust();
 });
+
 $(window).resize(function(){
     adjust();
 });
