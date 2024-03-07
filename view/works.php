@@ -186,7 +186,7 @@ if (empty($_SESSION['lng'])) {
     <div class="row">
         <div class="col-md-6">
             <h2>WhiteHats Crypt</h2>
-            <br>
+            <!--<br>-->
             Aplicativo para criptografar e descriptografar mensagens. Guarde com segurança o que é seu. Adicione uma palavra-chave de segurança e salve seus textos em locais seguros
             <br>
             <br>
@@ -210,9 +210,40 @@ if (empty($_SESSION['lng'])) {
             </div>
         </div>
     </div>
-
-    <!-- TODO: VMG -->
     
+    <hr>
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Aplicativo VMG Guindastes</h2>
+            Aplicativo criado em Flutter (Android e iOs) pra gestão das atividades da VMG Guindastes
+        </div>
+        <div class="br-30"></div>
+
+        <div class="col-md-4">
+            <img class="img-responsive" src="img/work/vmg-1.jpg">
+            <div class="br-30"></div>
+        </div>
+        <div class="col-md-4">
+            <img class="img-responsive" src="img/work/vmg-2.jpg">
+            <div class="br-30"></div>
+        </div>
+        <div class="col-md-4">
+            <img class="img-responsive" src="img/work/vmg-3.jpg">
+            <div class="br-30"></div>
+        </div>
+        <div class="col-md-4">
+            <img class="img-responsive" src="img/work/vmg-4.jpg">
+            <div class="br-30"></div>
+        </div>
+        <div class="col-md-4">
+            <img class="img-responsive" src="img/work/vmg-5.jpg">
+            <div class="br-30"></div>
+        </div>
+        <div class="col-md-4">
+            <img class="img-responsive" src="img/work/vmg-6.jpg">
+            <div class="br-30"></div>
+        </div>
+    </div>
     
     <hr>
     <div class="row">
@@ -442,7 +473,40 @@ if (empty($_SESSION['lng'])) {
         </div>
     </div>
 
-    <!-- TODO: VMG -->
+    <hr>
+    <div class="row">
+        <div class="col-md-12">
+            <h2>VMG Guindastes APP</h2>
+            <br>
+            App created in Flutter (Android + iOs) to administrate activities form VMG Guindastes
+        </div>
+        <div class="br-30"></div>
+
+        <div class="col-md-4">
+            <img class="img-responsive" src="img/work/vmg-1.jpg">
+            <div class="br-30"></div>
+        </div>
+        <div class="col-md-4">
+            <img class="img-responsive" src="img/work/vmg-2.jpg">
+            <div class="br-30"></div>
+        </div>
+        <div class="col-md-4">
+            <img class="img-responsive" src="img/work/vmg-3.jpg">
+            <div class="br-30"></div>
+        </div>
+        <div class="col-md-4">
+            <img class="img-responsive" src="img/work/vmg-4.jpg">
+            <div class="br-30"></div>
+        </div>
+        <div class="col-md-4">
+            <img class="img-responsive" src="img/work/vmg-5.jpg">
+            <div class="br-30"></div>
+        </div>
+        <div class="col-md-4">
+            <img class="img-responsive" src="img/work/vmg-6.jpg">
+            <div class="br-30"></div>
+        </div>
+    </div>
 
     <hr>
     <div class="row">
