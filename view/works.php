@@ -448,7 +448,6 @@ if (empty($_SESSION['lng'])) {
         <div class="col-md-6">
             <h2>WhiteHats Crypt</h2>
             <br>
-            <!--<br>-->
             App for encrypting and decrypting messages. Safely store what's yours. Add a security keyword and save your texts in secure locations.
             <br>
             <br>
