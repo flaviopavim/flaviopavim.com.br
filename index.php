@@ -163,13 +163,16 @@ if (!empty($_POST['form-contact'])) {
     </head>
     <body>
         
+        <script src="js/map.js" type="text/javascript"></script>
+        <canvas id="stars"></canvas>
+        <script src="js/stars.js" type="text/javascript"></script>
+        
+        
         <?php if (date('m') == 12) { ?>
             <canvas id="snowCanvas"></canvas>
             <script src="js/snowfall.js" type="text/javascript"></script>
         <?php } else if ((date('H') >= 19 and date('H') <= 23) or (date('H') >= 0 and date('H') < 3)) { ?>
-            <script src="js/map.js" type="text/javascript"></script>
-            <canvas id="stars"></canvas>
-            <script src="js/stars.js" type="text/javascript"></script>
+            
 <!--            <canvas id="moon" width="200" height="200"></canvas>
             <script src="js/moon.js" type="text/javascript"></script>-->
         <?php } else if (date('H') >= 3 and date('H') <= 4) { ?>
