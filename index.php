@@ -148,13 +148,9 @@ if (!empty($_POST['form-contact'])) {
         <meta property="og:title"       content="Flávio Pavim" />
         <meta property="og:description" content="Criação de sites, aplicativos, programas Windows, automação e muito mais em softwares!" />
         <meta property="og:image"       content="https://flaviopavim.com.br/img/cover-stars.png" />
-
         <title>Flávio Pavim</title>
-
         <link rel="icon" href="img/favicon.png" type="image/x-icon">
-
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-
         <link href="css/reset.css" rel="stylesheet" type="text/css"/>
         <link href="css/color.css" rel="stylesheet" type="text/css"/>
         <link href="css/font.css" rel="stylesheet" type="text/css"/>
