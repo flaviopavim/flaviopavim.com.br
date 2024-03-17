@@ -46,7 +46,7 @@ if (empty($_SESSION['lng'])) {
 <!--<section id="works">-->
 <div class="my-container page">
     <!--<h2>Trabalhos feitos</h2>-->
-    <div class="row">
+<!--    <div class="row">
         <div class="col-md-5">
             <h2>Chat WhiteHats 1.0 - Beta</h2>
             
@@ -75,7 +75,7 @@ if (empty($_SESSION['lng'])) {
             </p>
         </div>
     </div>
-    <hr>
+    <hr>-->
     <div class="row">
         <div class="col-md-3">
             <img class="img-responsive" src="img/work/whitehats.jfif">
@@ -305,7 +305,7 @@ if (empty($_SESSION['lng'])) {
 <!--<section id="works">-->
 <div class="my-container page">
     <!--<h2>Completed Projects</h2>-->
-    <div class="row">
+<!--    <div class="row">
         <div class="col-md-5">
             <h2>Chat WhiteHats 1.0 - Beta</h2>
             
@@ -334,7 +334,7 @@ if (empty($_SESSION['lng'])) {
             </p>
         </div>
     </div>
-    <hr>
+    <hr>-->
     <div class="row">
         <div class="col-md-3">
             <img class="img-responsive" src="img/work/whitehats.jfif">
