@@ -156,6 +156,7 @@ if (!empty($_POST['form-contact'])) {
         <link href="css/font.css" rel="stylesheet" type="text/css"/>
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
         <link href="css/videos.css" rel="stylesheet" type="text/css"/>
+        <link href="css/home.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         

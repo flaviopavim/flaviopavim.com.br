@@ -1,0 +1,114 @@
+/* 
+    Created on : 29 de abr. de 2024, 12:17:30
+    Author     : Flávio Pavim
+*/
+
+/*            body {
+                    margin: 0;
+                    background-color: #ccc;
+                    font-size: 14px;
+                    font-family: 'Lucida Console', 'Sans-serif';
+                    font-family: Arial, 'Sans-serif';
+                }*/
+i {
+    /*font-family: Arial, 'Sans-serif';*/
+    font-size: 12px;
+}
+#container, #left, #right {
+    display: table;
+}
+#container {
+    width: 800px;
+    margin: 0 auto;
+    margin-top:30px;
+    margin-bottom:30px;
+    background-color: #fff;
+}
+#left, #right {
+    /*                height: 400px;*/
+    padding:15px;
+    float: left;
+}
+#left {
+    width: 170px;
+    background-color: #39c;
+    color: #fff;
+}
+#right {
+    width: 570px;
+    font-family: 'Lucida Console', 'Sans-serif';
+}
+#left img {
+    display: block;
+    width: 160px;
+    height: 160px;
+    margin:5px;
+    border-radius: 100%;
+}
+.left-title {
+    /*color: #39c;*/
+    font-size: 16px;
+    font-weight:700;
+}
+.title {
+    display: table;
+    color: #39c;
+    font-size: 26px;
+    font-weight:700;
+
+
+    padding-right: 30px;
+    padding-bottom: 5px;
+    border-bottom: 2px #39c solid;
+}
+
+
+.skill {
+    /*display: block;*/
+    /*width: 275px;*/
+    width: 182px;
+    /*clear: both;*/
+    margin-bottom: 5px;
+    margin-right: 5px;
+    display: table;
+    float: left;
+    /*                height: 25px;
+                    line-height: 25px;*/
+}
+.skill-bar,
+.skill-bar-title,
+.skill-bar-progress {
+    /*height: 16px;*/
+    height: 25px;
+    line-height: 28px;
+}
+.skill-progress {
+    /*height: 16px;*/
+}
+.skill-bar{
+    display: block;
+    /*width: 275px;*/
+    width: 182px;
+    /*background-color: #39c;*/
+    border: 1px #39c solid;
+    float: left;
+    position: relative;
+    text-align: center;
+
+
+    height: 27px;
+    /*line-height: 27px;*/
+
+}
+
+.skill-bar-title {
+    /*color: #fff;*/
+    font-size: 18px;
+}
+.skill-bar-progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(51,153,204,0.5);
+    display: block;
+}

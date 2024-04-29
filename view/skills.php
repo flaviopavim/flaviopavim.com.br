@@ -1,43 +1,41 @@
 <section id="skills">
     <div class="my-container page">
-        <ul>
-            <?php if ($_SESSION['lng'] == 'eng') { ?>
-                <li>❤️ Focus on: PHP, Javascript and Flutter</li>
+        <?php if ($_SESSION['lng'] == 'eng') { ?>
+            <p>❤️ Focus on: PHP, Javascript and Flutter</p>
 
-                <li>😎 Main skills: HTML5, CSS3, Javascript, PHP, SQL, C#, C++, C, Java, Dart (Flutter), Python, ActionScript (⚰️RIP)</li>
+            <p>😎 Main skills: HTML5, CSS3, Javascript, PHP, SQL, C#, C++, C, Java, Dart (Flutter), Python, ActionScript (⚰️RIP)</p>
 
-                <li>👽 Frameworks: Bootstrap 3 and 5, Laravel, Yii2, Springboot, Selenium (Python)</li>
+            <p>👽 Frameworks: Bootstrap 3 and 5, Laravel, Yii2, Springboot, Selenium (Python)</p>
 
-                <li>⚔️ JS Family: jQuery, React.js, React Native, Angular, Numpy, P5</li>
+            <p>⚔️ JS Family: jQuery, React.js, React Native, Angular, Numpy, P5</p>
 
-                <li>📼 Database: MySQL, NoSQL, Sql Lite, Oracle, SQL Server, Dynamo DB</li>
+            <p>📼 Database: MySQL, NoSQL, Sql Lite, Oracle, SQL Server, Dynamo DB</p>
 
-                <li>🪛 Tools: Docker, Node.js, Git</li>
+            <p>🪛 Tools: Docker, Node.js, Git</p>
 
-                <li>👾 Others: DOS, Shell Script, Api Rest, SOAP, Wordpress</li>
+            <p>👾 Others: DOS, Shell Script, Api Rest, SOAP, Wordpress</p>
 
-                <li>💻 Some other softwares: Office, Inkscape, Photoshop, Corel Draw</li>
+            <p>💻 Some other softwares: Office, Inkscape, Photoshop, Corel Draw</p>
 
-                <li>🐧 OS: Windows, Linux, MacOS</li>
-            <?php } else if ($_SESSION['lng'] == 'pt-br') { ?>
-                <li>❤️ Foco em: PHP, Javascript e Flutter</li>
+            <p>🐧 OS: Windows, Linux, MacOS</p>
+        <?php } else if ($_SESSION['lng'] == 'pt-br') { ?>
+            <p>❤️ Foco em: PHP, Javascript e Flutter</p>
 
-                <li>😎 Principais habilidades: HTML5, CSS3, Javascript, PHP, SQL, C#, C++, C, Java, Dart (Flutter), Python, ActionScript (⚰️RIP)</li>
+            <p>😎 Principais habilidades: HTML5, CSS3, Javascript, PHP, SQL, C#, C++, C, Java, Dart (Flutter), Python, ActionScript (⚰️RIP)</p>
 
-                <li>👽 Frameworks: Bootstrap 3 e 5, Laravel, Yii2, Springboot, Selenium (Python)</li>
+            <p>👽 Frameworks: Bootstrap 3 e 5, Laravel, Yii2, Springboot, Selenium (Python)</p>
 
-                <li>⚔️ Família JS: jQuery, React.js, React Native, Angular, Numpy, P5</li>
+            <p>⚔️ Família JS: jQuery, React.js, React Native, Angular, Numpy, P5</p>
 
-                <li>📼 Banco de dados: MySQL, NoSQL, Sql Lite, Oracle, SQL Server, Dynamo DB</li>
+            <p>📼 Banco de dados: MySQL, NoSQL, Sql Lite, Oracle, SQL Server, Dynamo DB</p>
 
-                <li>🪛 Ferramentas: Docker, Node.js, Git</li>
+            <p>🪛 Ferramentas: Docker, Node.js, Git</p>
 
-                <li>👾 Outros: DOS, Shell Script, Api Rest, SOAP, Wordpress</li>
+            <p>👾 Outros: DOS, Shell Script, Api Rest, SOAP, Wordpress</p>
 
-                <li>💻 Alguns outros softwares: Office, Inkscape, Photoshop, Corel Draw</li>
+            <p>💻 Alguns outros softwares: Office, Inkscape, Photoshop, Corel Draw</p>
 
-                <li>🐧 Sistemas Operacionais: Windows, Linux, MacOS</li>
-            <?php } ?>
-        </ul>
+            <p>🐧 Sistemas Operacionais: Windows, Linux, MacOS</p>
+        <?php } ?>
     </div>
 </section>
