@@ -4,8 +4,11 @@
         <div class="contatos">
             <div class="contato-left">
 
-                Entre em contato, faça seu orçamento sem compromisso, ou deixe sua opinião, sugestão.<br>
-                Retornarei o mais breve possível!
+                <p>Entre em contato, faça seu orçamento sem compromisso, ou deixe sua opinião, sugestão.</p>
+                <p>Retornarei o mais breve possível!</p>
+                
+                <br>
+                
 
                 <ul class="contact-list">
                     <li><a href="mailto:contato@flaviopavim.com.br" target="_blank" class="default">contato@flaviopavim.com.br</a></li>
@@ -16,9 +19,9 @@
                         <a href="https://wa.me/5518996626124" target="_blank" class="whatsapp" title="WhatsApp" alt="WhatsApp">+55 (18) 99662-6124</a>
                     </li>
                 </ul>
-                <ul class="contact-list">
+<!--                <ul class="contact-list">
                     <li><a href="#" class="default" title="Celular" alt="Celular">Celular: (67) 9 9312-9223</a></li>
-                </ul>
+                </ul>-->
                 <ul class="contact-list">
                     <li>
                         <img src="img/social/github.png" title="GitHub" alt="GitHub"/>
@@ -87,9 +90,9 @@
                         <a href="https://wa.me/5518996626124" target="_blank" class="whatsapp" title="WhatsApp" alt="WhatsApp">+55 (18) 99662-6124</a>
                     </li>
                 </ul>
-                <ul class="contact-list">
+<!--                <ul class="contact-list">
                     <li><a href="#" class="default" title="Mobile" alt="Mobile">Mobile: (67) 9 9312-9223</a></li>
-                </ul>
+                </ul>-->
                 <ul class="contact-list">
                     <li>
                         <img src="img/social/github.png" title="GitHub" alt="GitHub"/>

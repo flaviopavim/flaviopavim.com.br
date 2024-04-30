@@ -21,8 +21,8 @@
                 <div class="desktop"><?php echo translate('Contact'); ?></div>
                 <div class="mobile"><?php echo translate('Contact'); ?></div>
             </li>
-            <a id="close" class="dark">X</a>
-            <a id="next" class="green">&gt;</a>
+            <a id="close" class="dark"><i class="glyphicon glyphicon-remove"></i></a>
+            <a id="next" class="green"><i class="glyphicon glyphicon-fast-forward"></i></a>
         </ul>
     </div>
 </nav>

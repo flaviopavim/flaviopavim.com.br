@@ -150,7 +150,7 @@ if (!empty($_POST['form-contact'])) {
         <meta property="og:image"       content="https://flaviopavim.com.br/img/cover-stars.png" />
         <title>Flávio Pavim</title>
         <link rel="icon" href="img/favicon.png" type="image/x-icon">
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="add/bootstrap-3.4.1-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/reset.css" rel="stylesheet" type="text/css"/>
         <link href="css/color.css" rel="stylesheet" type="text/css"/>
         <link href="css/font.css" rel="stylesheet" type="text/css"/>

@@ -11,8 +11,7 @@
                 $years = floor($diff / (365 * 60 * 60 * 24));
                 $months = floor(($diff - $years * 365 * 60 * 60 * 24) / (30 * 60 * 60 * 24));
                 echo $years;
-                ?>, fazem <?php echo $years - 14; ?> anos que faço códigos</p>
-            <!--<br>-->
+                ?>, tem <?php echo $years - 14; ?> anos que faço códigos</p>
             <p>Comecei fazendo sites de minhas bandas de rock, era expert no finado Flash</p>
             <p>Fiz site de baladas que era bem conhecido em minha região e depois disso fui trabalhar pra empresas pra aprimorar meus conhecimentos</p>
             <p>Trabalhei alguns anos fazendo sites e ecommerces pra empresas.</p>
@@ -29,6 +28,7 @@
             <p><img height="25" src="img/social/github.png" title="GitHub" alt="GitHub"/> <a href="https://github.com/flaviopavim" target="_blank">https://github.com/flaviopavim</a></p>
             <p><img height="25" src="img/social/linkedin.png" title="GitHub" alt="GitHub"/> <a href="https://www.linkedin.com/in/kicko" target="_blank">https://www.linkedin.com/in/kicko</a></p>
             <br>
+            <br>
 
             <p><strong>Trabalhos feitos:</strong></p>
             <p><a href="https://whitehats.com.br" target="_blank">https://whitehats.com.br</a></p>
@@ -38,18 +38,22 @@
             <p><a href="https://alexiasystem.com.br" target="_blank">https://alexiasystem.com.br</a></p>
             <p><a href="https://protetorastl.com.br" target="_blank">https://protetorastl.com.br</a></p>
             <br>
+            <br>
 
             <p><strong>Aplicativos na PlayStore:</strong></p>
             <p><a href="https://play.google.com/store/apps/details?id=br.com.whitehats.bluetooth" target="_blank">https://play.google.com/store/apps/details?id=br.com.whitehats.bluetooth</a></p>
             <p><a href="https://play.google.com/store/apps/details?id=br.com.whitehats.crypt" target="_blank">https://play.google.com/store/apps/details?id=br.com.whitehats.crypt</a></p>
             <br>
+            <br>
 
             <p><strong>Principais experiências profissionais:</strong></p>
+            <br>
             <br>
 
             <p><strong>VMG Guindastes</strong> - www.vmgguindastes.com.br – agosto de 2023 à janeiro de 2024</p>
             <p>Fiz aplicativo Android e iOs do sistema VMG pra controle operacional da empresa.</p>
             <p><strong>Tecnologias utilizadas:</strong> PHP, SQL, Dart (Flutter)</p>
+            <br>
             <br>
 
             <p><strong>Sofonias</strong> - <a href="https://sofonias.com.br" target="_blank">www.sofonias.com.br</a> – 2015 até o momento como freelancer</p>
@@ -58,12 +62,14 @@
             <p><strong>Tecnologias utilizadas:</strong> HTML, CSS, Javascript, jQuery, PHP, MySQL, API Rest, Integrações com</p>
             <p>Wirecard e PayPal</p>
             <br>
+            <br>
 
             <p><strong>Faculdade Uniasselvi</strong> - <a href="https://uniasselvi.com.br" target="_blank">www.uniasselvi.com.br</a> - De abril de 2022 à abril de 2023</p>
             <p>Atuei na sustentação e manutenção do site e backend do aplicativo do sistema Uniasselvi.</p>
             <p>Trabalhei junto à uma equipe dedicada, com 25 desenvolvedores</p>
             <p><strong>Tecnologias:</strong> HTML, CSS, Bootstrap, Javascript, jQuery, PHP, MySql, Angular, Symphony, PL-SQL,</p>
             <p>SQL, Oracle</p>
+            <br>
             <br>
 
             <p><strong>RunClub</strong> - <a href="https://runclub.com.br" target="_blank">www.runclub.com.br</a> – Janeiro do 2017 até março de 2019</p>
