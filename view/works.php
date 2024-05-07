@@ -79,6 +79,7 @@ if (empty($_SESSION['lng'])) {
         <div class="row">
             <div class="col-md-12">
                 <h2>Aplicativo VMG Guindastes</h2>
+                <br>
                 Aplicativo criado em Flutter (Android e iOs) pra gestão das atividades da VMG Guindastes
             </div>
             <div class="br-30"></div>
@@ -137,12 +138,19 @@ if (empty($_SESSION['lng'])) {
             </div>
             <div class="col-md-9">
                 <h2>WhiteHats</h2>
+                <br>
                 <p>Comunidade de segurança cibernética, com objetivo de melhorar a segurança na vida das pessoas.</p>
+                <br>
                 <p>Site: <a href="https://whitehats.com.br/" target="_blank">https://whitehats.com.br/</a></p>
+                <br>
                 <p>Somos uma equipe com desenvolvedores, especialistas em segurança e designers prontos para desenvolver seu site com qualidade, um excelente design e as mais atualizadas tecnologias de segurança.</p>
+                <br>
                 <p>A equipe conta com 4 membros, sendo Flávio Pavim como desenvolvedor e co-fundador do projeto;</p>
+                <br>
                 <p>Léo 'Hasan' como co-fundador, frontend e especialista em segurança e ataques;</p>
+                <br>
                 <p>'Cego' como desenvolvedor e especialista em segurança e ataques;</p>
+                <br>
                 <p>Leni como desenvolvedor e especialista em segurança e ataques;</p>
 
 
@@ -194,11 +202,16 @@ if (empty($_SESSION['lng'])) {
         <hr>
         <div class="row">
             <div class="col-md-12">
-                <h2>WhiteHats Bluetooth control </h2>
+                <h2>WhiteHats Bluetooth control</h2>
+                <br>
                 <p>Aplicativo pra controle de Arduinos e dispositivos compatíveis</p>
-                <p>Na PlayStore: <a href="https://play.google.com/store/apps/details?id=br.com.whitehats.bluetooth" target="_blank">https://play.google.com/store/apps/details?id=br.com.whitehats.bluetooth</a>
+                <br>
+                <p>Na PlayStore: <a href="https://play.google.com/store/apps/details?id=br.com.whitehats.bluetooth" target="_blank">https://play.google.com/store/apps/details?id=br.com.whitehats.bluetooth</a></p>
+                <br>
                 <p>Código gratuito do Arduino no GitHub: <a href="https://github.com/flaviopavim/bluetooth-control-arduino-pro-mini" target="_blank">https://github.com/flaviopavim/bluetooth-control-arduino-pro-mini</a></p>
+                <br>
                 <p>Bônus:</p>
+                <br>
                 <p>Código do 'Sonar' (carrinho de controle feito no vídeo): <a href="https://github.com/flaviopavim/arduino-carrinho-radio-controle" target="_blank">https://github.com/flaviopavim/arduino-carrinho-radio-controle</a></p>
             </div>
             <div class="col-md-6">
@@ -229,8 +242,11 @@ if (empty($_SESSION['lng'])) {
 
             <div class="col-md-7">
                 <h2>Alexia System</h2>
+                <br>
                 <p>Site: <a href="https://alexiasystem.com.br/" target="_blank">https://alexiasystem.com.br/</a></p>
+                <br>
                 <p>De nome fictício, vindo do game Resident Evil Code Veronica (a vilã Alexia Ashford), é um site onde mantenho até hoje pra mostrar trabalhos.</p>
+                <br>
                 <p>Desenvolvo alguns aplicativos e sites com ajuda de designers e programadores</p>
                 <!--https://www.youtube.com/shorts/Td9YQ7W8pRU-->
                 <div class="br-30"></div>
@@ -241,7 +257,7 @@ if (empty($_SESSION['lng'])) {
         <div class="row">
             <div class="col-md-6">
                 <h2>WhiteHats Crypt</h2>
-                <!--<br>-->
+                <br>
                 Aplicativo para criptografar e descriptografar mensagens. Guarde com segurança o que é seu. Adicione uma palavra-chave de segurança e salve seus textos em locais seguros
                 <br>
                 <br>
