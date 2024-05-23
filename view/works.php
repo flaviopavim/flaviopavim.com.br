@@ -75,6 +75,103 @@ if (empty($_SESSION['lng'])) {
                 </div>
             </div>
             <hr>-->
+        
+        
+        <div style="clear: both; height: 15px;"></div>
+        <div class="row">
+            <div class="col-md-5">
+                <img src="img/work/security/security.png" class="img-responsive" style="width: 100%;">
+
+            </div>
+            <div class="col-md-7">
+                <h2>WhiteHats Security 1.0.0</h2>
+                <div style="clear: both; height: 15px;"></div>
+                <p>
+                    Trave seu computador de onde estiver, execute programas e comandos.
+                    <br>
+                    Você também pode programar pra desligar em quanto tempo quiser.
+                </p>
+                <p>
+                    Em breve traremos novos recursos como tirar print da tela do computador e muito mais recursos de segurança.
+                </p>
+
+                <!--<div style="clear: both; height: 30px;"></div>-->
+                <div style="clear: both; height: 15px;"></div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="img-responsive" src="img/esp32.jpg">
+                    </div>
+                    <div class="col-md-8">
+                        <p>
+                            Disponibilizamos totalmente grátis, códigos pra integração com dispositivos IOT com ESP32 e controle de Arduino com Bluetooth
+                        </p>
+                        <p>
+                            Controle os dispositivos de sua casa, alarmes, leds normais e RGB, máquinas e tudo mais o que quiser com ESP32 e nosso APP
+                        </p>
+                    </div>
+                </div>
+
+                <div style="clear: both; height: 15px;"></div>
+                <h4>Downloads:</h4>
+                <div style="clear: both; height: 15px;"></div>
+                <p>
+                    Aplicativo: <a target="_blank" href="https://whitehats.com.br/download/app-debug.apk">https://whitehats.com.br/download/app-debug.apk</a>
+                    <!--App: <a target="_blank" href="https://play.google.com/store/apps/details?id=br.com.whitehats.security">https://play.google.com/store/apps/details?id=br.com.whitehats.security</a>-->
+                </p>
+                <p>
+                    Programa Windows: <a target="_blank" href="https://whitehats.com.br/download/WhiteHats%20Security%201.0.0.zip">https://whitehats.com.br/download/WhiteHats%20Security%201.0.0.zip</a>
+                </p>
+                <p>
+                    Código pra ESP32: <a target="_blank" href="https://github.com/flaviopavim/arduino/blob/main/ESP32/central.cpp">https://github.com/flaviopavim/arduino/blob/main/ESP32/central.cpp</a>
+                </p>
+                <p>
+                    Código pra Arduino com módulo Bluetooth: <a target="_blank" href="https://github.com/flaviopavim/bluetooth-control-arduino-pro-mini">https://github.com/flaviopavim/bluetooth-control-arduino-pro-mini</a>
+                </p>
+
+
+
+
+
+            </div>
+        </div>
+        <div style="clear: both; height: 30px;"></div>
+
+
+        <div class="row">
+            <div class="col-md-3">
+                <img src="img/work/security/02.jpg" class="img-responsive">
+                <div style="clear: both; height: 30px;"></div>
+            </div>
+            <div class="col-md-3">
+                <img src="img/work/security/03.jpg" class="img-responsive">
+                <div style="clear: both; height: 30px;"></div>
+            </div>
+            <div class="col-md-3">
+                <img src="img/work/security/04.jpg" class="img-responsive">
+                <div style="clear: both; height: 30px;"></div>
+            </div>
+            <div class="col-md-3">
+                <img src="img/work/security/05.jpg" class="img-responsive">
+                <div style="clear: both; height: 30px;"></div>
+            </div>
+            <div class="col-md-3">
+                <img src="img/work/security/06.jpg" class="img-responsive">
+                <div style="clear: both; height: 30px;"></div>
+            </div>
+            <div class="col-md-3">
+                <img src="img/work/security/09.jpg" class="img-responsive">
+                <div style="clear: both; height: 30px;"></div>
+            </div>
+            <div class="col-md-3">
+                <img src="img/work/security/11.jpg" class="img-responsive">
+                <div style="clear: both; height: 30px;"></div>
+            </div>
+            <div class="col-md-3">
+                <img src="img/work/security/12.jpg" class="img-responsive">
+                <div style="clear: both; height: 30px;"></div>
+            </div>
+        </div>
+        
 
         <div class="row">
             <div class="col-md-12">
