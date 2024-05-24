@@ -103,10 +103,12 @@ if (empty($_SESSION['lng'])) {
                     </div>
                     <div class="col-md-8">
                         <p>
-                            Disponibilizamos totalmente grátis, códigos pra integração com dispositivos IOT com ESP32 e controle de Arduino com Bluetooth
+                            <!--Disponibilizamos totalmente grátis, códigos pra integração com dispositivos IOT com ESP32 e controle de Arduino com Bluetooth-->
+                            Disponibilizamos totalmente grátis, códigos pra integração com dispositivos Arduino com Bluetooth
                         </p>
                         <p>
-                            Controle os dispositivos de sua casa, alarmes, leds normais e RGB, máquinas e tudo mais o que quiser com ESP32 e nosso APP
+                            <!--Controle os dispositivos de sua casa, alarmes, leds normais e RGB, máquinas e tudo mais o que quiser com ESP32 e nosso APP-->
+                            Controle os dispositivos de sua casa, alarmes, leds normais e RGB, máquinas e tudo mais o que quiser com Arduino ou Windows e nosso APP
                         </p>
                     </div>
                 </div>
@@ -121,9 +123,9 @@ if (empty($_SESSION['lng'])) {
                 <p>
                     Programa Windows: <a target="_blank" href="https://whitehats.com.br/download/WhiteHats%20Security%201.0.0.zip">https://whitehats.com.br/download/WhiteHats%20Security%201.0.0.zip</a>
                 </p>
-                <p>
+<!--                <p>
                     Código pra ESP32: <a target="_blank" href="https://github.com/flaviopavim/arduino/blob/main/ESP32/central.cpp">https://github.com/flaviopavim/arduino/blob/main/ESP32/central.cpp</a>
-                </p>
+                </p>-->
                 <p>
                     Código pra Arduino com módulo Bluetooth: <a target="_blank" href="https://github.com/flaviopavim/bluetooth-control-arduino-pro-mini">https://github.com/flaviopavim/bluetooth-control-arduino-pro-mini</a>
                 </p>
