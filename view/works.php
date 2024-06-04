@@ -92,7 +92,7 @@ if (empty($_SESSION['lng'])) {
                     Você também pode programar pra desligar em quanto tempo quiser.
                 </p>
                 <p>
-                    Em breve traremos novos recursos como tirar print da tela do computador e muito mais recursos de segurança.
+                    Em breve traremos novos recursos como tirar print da tela do computador e muito mais sistemas de segurança.
                 </p>
 
                 <!--<div style="clear: both; height: 30px;"></div>-->
