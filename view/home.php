@@ -33,6 +33,7 @@
             <p><strong>Trabalhos feitos:</strong></p>
             <p><a href="https://whitehats.com.br" target="_blank">https://whitehats.com.br</a></p>
             <p><a href="https://flaviamattioli.com.br" target="_blank">https://flaviamattioli.com.br</a></p>
+            <p><a href="https://danieljunhipnoterapeuta.com.br" target="_blank">https://danieljunhipnoterapeuta.com.br</a> - em parceria com <a href="https://sofonias.com.br" target="_blank">Sofonias</a></p>
             <p><a href="https://naoradoclick.com.br" target="_blank">https://naoradoclick.com.br</a></p>
             <p><a href="https://freitasadvocaciabr.com" target="_blank">https://freitasadvocaciabr.com</a></p>
             <p><a href="https://alexiasystem.com.br" target="_blank">https://alexiasystem.com.br</a></p>
@@ -50,7 +51,13 @@
             <br>
             <br>
 
-            <p><strong>VMG Guindastes</strong> - www.vmgguindastes.com.br – agosto de 2023 à janeiro de 2024</p>
+            <p><strong>Captador</strong> - <a href="https://captador.com.br/" target="_blank">www.captador.com.br</a> – janeiro de 2024 à julho de 2024</p>
+            <p>Fizemos chat de atendimento integrado com WhatsApp Business e sistema de pagamento.</p>
+            <p><strong>Tecnologias utilizadas:</strong> Dart (Flutter)</p>
+            <br>
+            <br>
+
+            <p><strong>VMG Guindastes</strong> - <a href="https://vmgguindastes.com.br/" target="_blank">www.vmgguindastes.com.br</a> – agosto de 2023 à janeiro de 2024</p>
             <p>Fiz aplicativo Android e iOs do sistema VMG pra controle operacional da empresa.</p>
             <p><strong>Tecnologias utilizadas:</strong> PHP, SQL, Dart (Flutter)</p>
             <br>
@@ -58,7 +65,7 @@
 
             <p><strong>Sofonias</strong> - <a href="https://sofonias.com.br" target="_blank">www.sofonias.com.br</a> – 2015 até o momento como freelancer</p>
             <p>Trabalho como freelancer Full Stack, onde desenvolvo principalmente backend de sites e lojas virtuais de diversos tipos. 
-                Adquiri muito conhecimento no recorte de imagens com Photoshop, muitas vezes layouts já chegm pronto e eu transformo em site.</p>
+                Adquiri muito conhecimento no recorte de imagens com Photoshop, muitas vezes layouts já chegam pronto e eu transformo em site.</p>
             <p><strong>Tecnologias utilizadas:</strong> HTML, CSS, Javascript, jQuery, PHP, MySQL, API Rest, Integrações com</p>
             <p>Wirecard e PayPal</p>
             <br>
@@ -88,7 +95,7 @@
             <br>
             <br>
 
-            <p><strong>Grupo UDS</strong> - www.grupouds.com.br - 2015 à 2016</p>
+            <p><strong>Grupo UDS</strong> - <a href="https://grupouds.com.br" target="_blank">www.grupouds.com.br</a> - 2015 à 2016</p>
             <p>Trabalhei fazendo sites e lojas virtuais</p>
             <p>Foi onde tive a maior base de aprendizado em fazer todos os tipos de sites e ecommerces, 
                 integrando com APIs de pagamento e fazendo a logística completa de lojas virtuais de diversos tipos. 
