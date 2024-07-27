@@ -11,41 +11,76 @@
                 $years = floor($diff / (365 * 60 * 60 * 24));
                 $months = floor(($diff - $years * 365 * 60 * 60 * 24) / (30 * 60 * 60 * 24));
                 echo $years;
-                ?>, tem <?php echo $years - 14; ?> anos que faço códigos</p>
+                ?>, tem <strong><?php echo $years - 14; ?> anos que faço códigos</strong></p>
             <p>Comecei fazendo sites de minhas bandas de rock, era expert no finado Flash</p>
             <p>Fiz site de baladas que era bem conhecido em minha região e depois disso fui trabalhar pra empresas pra aprimorar meus conhecimentos</p>
             <p>Trabalhei alguns anos fazendo sites e ecommerces pra empresas.</p>
-            <p>Depois do meu primeiro Arduino aprendi muito mais sobre outras linguagens, então comecei a fazer apps por conta, e hoje posso desenvolver de tudo em sites e apps</p>
-            <p>Atualmente trabalho com desenvolvimento de sites, aplicativos, automação residencial, automação de processos e softwares pra máquinas com Arduino ou Raspberry</p>
-            <p>Atendo empresas diversas, tenho parceiros programadores e experts no WhiteHats, sou freelancer na Sofonias, e estou sempre disponível à uma boa proposta ;)</p>
+            <p>Depois do meu primeiro <strong class="green">Arduino</strong> aprendi muito mais sobre outras linguagens, então comecei a fazer apps por conta, e hoje posso desenvolver diversos tipos de sites e apps</p>
+            <p>Atualmente trabalho com <strong class="blue">desenvolvimento de sites, aplicativos, automação residencial, automação de processos</strong> e softwares pra máquinas com <strong class="green">Arduino</strong> ou <strong class="red">Raspberry</strong></p>
+            <p>Atendo empresas diversas, tenho parceiros programadores e experts no <strong>WhiteHats</strong>, sou freelancer em algumas empresas, e estou sempre disponível à uma boa proposta ;)</p>
             <br>
 
+            <div class="row">
+                <div class="col-md-6">
+                    <p><strong>Whatsapp:</strong> <a href="https://api.whatsapp.com/send?phone=5518996626124&text=<?php echo 'Olá. Gostaria de fazer um orçamento sem compromisso sobre desenvolvimento de site, app ou automação.'; ?>" target="_blank">+55 18 99662-6124</a></p>
+                    <p><strong>Cidade:</strong> Dracena SP - <strong>Com destino à Florianópolis SC</strong></p>
+                    <p><strong>Email:</strong> contato@flaviopavim.com.br</p>
+                    <p><img height="25" src="img/social/youtube.png" title="GitHub" alt="GitHub"/> <a href="https://youtube.com/flaviopavim" target="_blank">https://youtube.com/flaviopavim</a> (um pouco sobre quem sou)</p>
+                    <p><img height="25" src="img/social/github.png" title="GitHub" alt="GitHub"/> <a href="https://github.com/flaviopavim" target="_blank">https://github.com/flaviopavim</a></p>
+                    <p><img height="25" src="img/social/linkedin.png" title="GitHub" alt="GitHub"/> <a href="https://www.linkedin.com/in/kicko" target="_blank">https://www.linkedin.com/in/kicko</a></p>
+                    <br>
+                    <br>
 
-            <p><strong>Whatsapp:</strong> <a href="https://api.whatsapp.com/send?phone=5518996626124&text=<?php echo 'Olá. Gostaria de fazer um orçamento sem compromisso sobre desenvolvimento de site, app ou automação.'; ?>" target="_blank">+55 18 99662-6124</a></p>
-            <p><strong>Cidade:</strong> Dracena SP - <strong>Com destino à Florianópolis SC</strong></p>
-            <p><strong>Email:</strong> contato@flaviopavim.com.br</p>
-            <p><img height="25" src="img/social/youtube.png" title="GitHub" alt="GitHub"/> <a href="https://youtube.com/flaviopavim" target="_blank">https://youtube.com/flaviopavim</a> (um pouco sobre quem sou)</p>
-            <p><img height="25" src="img/social/github.png" title="GitHub" alt="GitHub"/> <a href="https://github.com/flaviopavim" target="_blank">https://github.com/flaviopavim</a></p>
-            <p><img height="25" src="img/social/linkedin.png" title="GitHub" alt="GitHub"/> <a href="https://www.linkedin.com/in/kicko" target="_blank">https://www.linkedin.com/in/kicko</a></p>
-            <br>
-            <br>
+                    <p><strong>Trabalhos feitos:</strong></p>
+                    <p><a href="https://whitehats.com.br" target="_blank">https://whitehats.com.br</a></p>
+                    <p><a href="https://flaviamattioli.com.br" target="_blank">https://flaviamattioli.com.br</a></p>
+                    <p><a href="https://danieljunhipnoterapeuta.com.br" target="_blank">https://danieljunhipnoterapeuta.com.br</a> - em parceria com <a href="https://sofonias.com.br" target="_blank">Sofonias</a></p>
+                    <p><a href="https://naoradoclick.com.br" target="_blank">https://naoradoclick.com.br</a></p>
+                    <p><a href="https://freitasadvocaciabr.com" target="_blank">https://freitasadvocaciabr.com</a></p>
+                    <p><a href="https://alexiasystem.com.br" target="_blank">https://alexiasystem.com.br</a></p>
+                    <p><a href="https://protetorastl.com.br" target="_blank">https://protetorastl.com.br</a></p>
+                    <br>
+                    <br>
 
-            <p><strong>Trabalhos feitos:</strong></p>
-            <p><a href="https://whitehats.com.br" target="_blank">https://whitehats.com.br</a></p>
-            <p><a href="https://flaviamattioli.com.br" target="_blank">https://flaviamattioli.com.br</a></p>
-            <p><a href="https://danieljunhipnoterapeuta.com.br" target="_blank">https://danieljunhipnoterapeuta.com.br</a> - em parceria com <a href="https://sofonias.com.br" target="_blank">Sofonias</a></p>
-            <p><a href="https://naoradoclick.com.br" target="_blank">https://naoradoclick.com.br</a></p>
-            <p><a href="https://freitasadvocaciabr.com" target="_blank">https://freitasadvocaciabr.com</a></p>
-            <p><a href="https://alexiasystem.com.br" target="_blank">https://alexiasystem.com.br</a></p>
-            <p><a href="https://protetorastl.com.br" target="_blank">https://protetorastl.com.br</a></p>
-            <br>
-            <br>
-
-            <p><strong>Aplicativos na PlayStore:</strong></p>
-            <p><a href="https://play.google.com/store/apps/details?id=br.com.whitehats.bluetooth" target="_blank">https://play.google.com/store/apps/details?id=br.com.whitehats.bluetooth</a></p>
-            <p><a href="https://play.google.com/store/apps/details?id=br.com.whitehats.crypt" target="_blank">https://play.google.com/store/apps/details?id=br.com.whitehats.crypt</a></p>
-            <br>
-            <br>
+                    <p><strong>Aplicativos na PlayStore:</strong></p>
+                    <p><a href="https://play.google.com/store/apps/details?id=br.com.whitehats.bluetooth" target="_blank">https://play.google.com/store/apps/details?id=br.com.whitehats.bluetooth</a></p>
+                    <p><a href="https://play.google.com/store/apps/details?id=br.com.whitehats.crypt" target="_blank">https://play.google.com/store/apps/details?id=br.com.whitehats.crypt</a></p>
+                    <br>
+                    <br>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <!--            <div class="col-md-5">
+                        
+                                    </div>-->
+                        <div class="col-md-12">
+                            <!--<h2>Chat WhiteHats</h2>-->
+                            Co-fundador do projeto <strong>WhiteHats</strong>
+                            <div style="clear: both; height: 15px;"></div>
+                            <img src="img/work/chat/colored.png" class="img-responsive" style="width: 100%;">
+                            <div style="clear: both; height: 30px;"></div>
+                            <p>
+                                O <strong>WhiteHats</strong> é uma comunidade feita pra programadores, experts em tecnologias, curiosos e estudantes do assunto
+                            </p>
+                            <p>
+                                Site: <a href="https://whitehats.com.br/chat" target="_blank">https://whitehats.com.br/chat</a>
+                            </p>
+                            <p>
+                                Chat com criptografia ponta a ponta, no qual você pode utilizar uma chave secreta com seus amigos pra conversar com segurança em sala, grupo, ou individualmente
+                            </p>
+                            <p>
+                                Faça amizades com pessoas do mesmo interesse que você!
+                            </p>
+                            <p>
+                                Faça parte da equipe <strong>WhiteHats</strong>! 
+                            </p>
+                            <p>
+                                <strong>É grátis! É seguro! E não coletamos cookies!</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <p><strong>Principais experiências profissionais:</strong></p>
             <br>

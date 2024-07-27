@@ -78,6 +78,77 @@ if (empty($_SESSION['lng'])) {
         
         
         <div style="clear: both; height: 15px;"></div>
+        
+        <div class="row">
+<!--            <div class="col-md-5">
+
+            </div>-->
+            <div class="col-md-12">
+                <h2>Chat WhiteHats</h2>
+                <div style="clear: both; height: 15px;"></div>
+                <img src="img/work/chat/colored.png" class="img-responsive" style="width: 100%;">
+            </div>
+            <div style="clear: both; height: 30px;"></div>
+            <div class="col-md-6">
+                <img src="img/work/chat/intro.png" class="img-responsive" style="width: 100%;">
+            </div>
+            <div class="col-md-6">
+                <p>
+                    O <strong>WhiteHats</strong> é uma comunidade feita pra programadores, experts em tecnologias, curiosos e estudantes do assunto
+                </p>
+                <p>
+                    Sou co-fundador e programador do projeto <strong>WhiteHats</strong>
+                </p>
+                <p>
+                    Site: <a href="https://whitehats.com.br/chat" target="_blank">https://whitehats.com.br/chat</a>
+                </p>
+                <p>
+                    Chat com criptografia ponta a ponta, no qual você pode utilizar uma chave secreta com seus amigos pra conversar com segurança em sala, grupo, ou individualmente
+                </p>
+                <p>
+                    Faça amizades com pessoas do mesmo interesse que você!
+                </p>
+                <p>
+                    Faça parte da equipe WhiteHats! 
+                </p>
+                <p>
+                    <strong>É grátis!</strong>
+                </p>
+                <p>
+                    <strong>É seguro!</strong>
+                </p>
+                <p>
+                    <strong>Não coletamos cookies!</strong>
+                </p>
+            </div>
+            <div style="clear: both; height: 30px;"></div>
+            <div class="col-md-6">
+                <p>
+                    Com um design limpo, responsivo e cores suaves e bem selecionadas, o chat tem sua atratividade além de funcionalidades de criptografias e segurança
+                </p>
+                <div style="clear: both; height: 10px;"></div>
+                <p>
+                    O site está em desenvolvimento constante, junto com o aplicativo que chegará em breve!
+                </p>
+                <div style="clear: both; height: 10px;"></div>
+                <p>
+                    <strong>Tecnologias utilizadas no site:</strong> HTML5, CSS3, um pouco de jQuery e muito Javascript
+                </p>
+                <p>
+                    <strong>Tecnologias utilizadas na API:</strong> PHP puro (sem frameworks) e um pouco de Python pra algumas atividades
+                </p>
+                <p>
+                    <strong>Tecnologia dos APPs (em desenvolvimento) Android e iOs:</strong> Flutter
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="img/work/chat/chat-1.png" class="img-responsive" style="width: 100%;">
+            </div>
+        </div>
+        
+        <div style="clear: both; height: 15px;"></div>
+        <hr>
+        <div style="clear: both; height: 15px;"></div>
         <div class="row">
             <div class="col-md-5">
                 <img src="img/work/security/security.png" class="img-responsive" style="width: 100%;">
@@ -173,6 +244,11 @@ if (empty($_SESSION['lng'])) {
                 <div style="clear: both; height: 30px;"></div>
             </div>
         </div>
+        
+        
+        <div style="clear: both; height: 15px;"></div>
+        <hr>
+        <div style="clear: both; height: 15px;"></div>
         
 
         <div class="row">
@@ -363,10 +439,6 @@ if (empty($_SESSION['lng'])) {
                 Na PlayStore: <a href="https://play.google.com/store/apps/details?id=br.com.whitehats.crypt" target="_blank">https://play.google.com/store/apps/details?id=br.com.whitehats.crypt</a>
                 <br>
                 <br>
-                Em breve mais criptografias no aplicativos ;)
-                <br>
-                <br>
-
             </div>
 
             <div class="col-md-6">

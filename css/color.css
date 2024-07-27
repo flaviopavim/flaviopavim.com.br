@@ -3,7 +3,7 @@
     Author     : Flávio Pavim
 */
 
-.dark {
+/*.dark {
     display: none;
     background-color: #333;
 }
@@ -35,5 +35,168 @@
 
 .purple {
     background-color: #712580;
+    color: #fff;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+    Created on : 19 de set. de 2023, 20:17:28
+    Author     : Flávio Pavim
+*/
+
+/*Color*/
+
+.color-1,
+.blue {
+    color: #3498DB;
+}
+
+.color-2,
+.green {
+    color: #2ECC71;
+}
+
+.color-3,
+.yellow {
+    color: #F1C40F;
+}
+
+.color-4,
+.orange {
+    color: #E67E22;
+}
+
+.color-5,
+.purple {
+    color: #9B59B6;
+}
+
+.color-7,
+.red {
+    color: #E74C3C;
+}
+
+.color-6,
+.pink {
+    color: #E91E63;
+}
+
+.color-8,
+.teal {
+    color: #1ABC9C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Background*/
+
+
+
+.bg-default {
+    /*background-color: #ddd;*/
+    background-color: #fff;
+}
+
+
+
+
+
+/*geralmente pra botões inativos*/
+.bg-grey {
+    background-color: #ccc;
+    color: #fff;
+}
+.hover-dark:hover,
+.bg-dark {
+    background-color: #222;
+    color: #fff;
+}
+
+.bg-color-1,
+.hover-blue:hover,
+.bg-blue {
+    background-color: #3498db;
+    color: #fff;
+}
+.hover-blue:hover > .glyphicon {
+    color: #fff;
+}
+
+.bg-color-2,
+.bg-green {
+    background-color: #2ECC71;
+    color: #fff;
+}
+
+.bg-color-3,
+.bg-yellow {
+    background-color: #F1C40F;
+    color: #fff;
+}
+
+.bg-color-4,
+.bg-orange {
+    background-color: #E67E22;
+    color: #fff;
+}
+
+.bg-color-5,
+.bg-purple {
+    background-color: #9B59B6;
+    color: #fff;
+}
+
+.bg-color-7,
+.bg-red {
+    background-color: #E74C3C;
+    color: #fff;
+}
+
+.bg-color-6,
+.bg-pink {
+    background-color: #E91E63;
+    color: #fff;
+}
+
+.bg-color-8,
+.bg-teal {
+    background-color: #1ABC9C;
     color: #fff;
 }
