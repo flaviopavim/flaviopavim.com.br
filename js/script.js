@@ -1,6 +1,5 @@
 /* 
  Created on : 2023, July, 28, 20:40:53
- Updated on : 2024, March, 05, 20:40:53
  Author     : Flávio Pavim
  */
 
@@ -10,6 +9,17 @@ var actual = '';
 var next = '';
 
 var work_loaded=false;
+
+var toggleClickOpacity = false; //pra piscar os clicks
+var toggleClicksOpacity = true; //pra aparecer ou esconder clicks
+var selected='home';
+
+//pra saber se já abriu todas as abas
+var hasClickedOnHome=false;
+var hasClickedOnSkills=false;
+var hasClickedOnWorks=false;
+var hasClickedOnVideos=false;
+var hasClickedOnContact=false;
 
 function openSite(page) {
     
@@ -39,7 +49,6 @@ function openSite(page) {
             method: "POST",
             url: "./view/"+page+".php",
         }).done(function (response) {
-            
             $('#works').html(response);
             work_loaded=true;
         });
@@ -54,12 +63,42 @@ function openSite(page) {
     });
 }
 
+function getNextSelected() {
+    if (!hasClickedOnHome) {
+        return 'home';
+    } else if (!hasClickedOnSkills) {
+        return 'skills';
+    } else if (!hasClickedOnWorks) {
+        return 'works';
+    } else if (!hasClickedOnVideos) {
+        return 'videos';
+    } else if (!hasClickedOnContact) {
+        return 'contact';
+    }
+    return '';
+}
+
 function closeSite() {
     
     $('section').stop().fadeOut(200, function () {
         $('#next, #close').stop().fadeOut(200, function () {
-            $('nav').stop().animate({top: 350}, 200, function () {
+            var top=($(window).height()/2)-($('nav').height()/2)
+            $('nav').stop().animate({top: top}, 200, function () {
                 
+                toggleClicksOpacity=true;
+                if (actual=='home') {
+                    hasClickedOnHome=true;
+                } else if (actual=='skills') {
+                    hasClickedOnSkills=true;
+                } else if (actual=='works') {
+                    hasClickedOnWorks=true;
+                } else if (actual=='videos') {
+                    hasClickedOnVideos=true;
+                } else if (actual=='contact') {
+                    hasClickedOnContact=true;
+                }
+                
+                selected=getNextSelected();
                 
                 var navListItems = document.querySelectorAll('nav ul li');
                 var navDivs = document.querySelectorAll('nav ul li div');
@@ -203,53 +242,106 @@ function goNext() {
 }
 
 $(function () {
+    
+    //pisca o click
+    setInterval(function(){
+        
+        $('.click').css({
+            opacity: 0
+        });
+        
+        if (!changing && !opened) {
+            if (toggleClicksOpacity) {
+
+                // Seletor dinâmico baseado na variável selected
+                var $this = $(`#${selected}-button > .click`);
+
+                // Alterna o valor da opacidade entre 0 e 1
+                toggleClickOpacity = !toggleClickOpacity;
+
+                // Define a opacidade com base na variável toggleClickOpacity
+                $this.css({ opacity: toggleClickOpacity ? 1 : 0 });
+
+            }
+        }
+        
+    },170);
+    
+    //os botões
     $('#home-button').click(function () {
         openHome();
+    }).mouseenter(function() {
+        selected='home';
+    }).mouseleave(function(){
+        selected=getNextSelected();
     });
+    
     $('#skills-button').click(function () {
         openSkills();
+    }).mouseenter(function() {
+        selected='skills';
+    }).mouseleave(function(){
+        selected=getNextSelected();
     });
+    
     $('#works-button').click(function () {
         openWorks();
+    }).mouseenter(function() {
+        selected='works';
+    }).mouseleave(function(){
+        selected=getNextSelected();
     });
+    
     $('#videos-button').click(function () {
         openVideos();
+    }).mouseenter(function() {
+        selected='videos';
+    }).mouseleave(function(){
+        selected=getNextSelected();
     });
+    
     $('#contact-button').click(function () {
         openContact();
+    }).mouseenter(function() {
+        selected='contact';
+    }).mouseleave(function(){
+        selected=getNextSelected();
     });
 
+    //anima pra próxima aba
     $('#next').click(function () {
         goNext();
     });
     
+    //fechar
     $('#close').click(function () {
         closeMe();
     });
     
-    $(window).keyup(function (e) {
-        if (e.keyCode === 39) {
-            goNext();
-        }
-        if (e.keyCode === 27) {
-            closeMe();
-        }
-        if (e.keyCode === 49) {
-            openHome();
-        }
-        if (e.keyCode === 50) {
-            openSkills();
-        }
-        if (e.keyCode === 51) {
-            openWorks();
-        }
-        if (e.keyCode === 52) {
-            openVideos();
-        }
-        if (e.keyCode === 53) {
-            openContact();
-        }
-    });
+});
+
+$(window).keyup(function (e) {
+    if (e.keyCode === 39) {
+        goNext();
+    }
+    if (e.keyCode === 27) {
+        closeMe();
+    }
+    if (e.keyCode === 49) {
+        openHome();
+    }
+    if (e.keyCode === 50) {
+        openSkills();
+    }
+    if (e.keyCode === 51) {
+        openWorks();
+    }
+    if (e.keyCode === 52) {
+        openVideos();
+    }
+    if (e.keyCode === 53) {
+        openContact();
+    }
 });
 
 function map(x, in_min, in_max, out_min, out_max) {

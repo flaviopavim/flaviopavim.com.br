@@ -524,6 +524,133 @@ if (empty($_SESSION['lng'])) {
                 </div>
             </div>
             <hr>-->
+        
+        <div class="row">
+    <!--<div class="col-md-5">
+
+    </div>-->
+    <div class="col-md-12">
+        <h2>WhiteHats Chat</h2>
+        <div style="clear: both; height: 15px;"></div>
+        <img src="img/work/chat/colored.png" class="img-responsive" style="width: 100%;">
+    </div>
+    <div style="clear: both; height: 30px;"></div>
+    <div class="col-md-6">
+        <img src="img/work/chat/intro.png" class="img-responsive" style="width: 100%;">
+    </div>
+    <div class="col-md-6">
+        <p>
+            <strong>WhiteHats</strong> is a community for programmers, technology experts, enthusiasts, and students.
+        </p>
+        <p>
+            I am the co-founder and developer of the <strong>WhiteHats</strong> project.
+        </p>
+        <p>
+            Website: <a href="https://whitehats.com.br/chat" target="_blank">https://whitehats.com.br/chat</a>
+        </p>
+        <p>
+            End-to-end encrypted chat where you can use a secret key with your friends to chat securely in rooms, groups, or individually.
+        </p>
+        <p>
+            Make friends with people who share your interests!
+        </p>
+        <p>
+            Join the WhiteHats team!
+        </p>
+        <p>
+            <strong>It's free!</strong>
+        </p>
+        <p>
+            <strong>It's secure!</strong>
+        </p>
+        <p>
+            <strong>We don't collect cookies!</strong>
+        </p>
+    </div>
+    <div style="clear: both; height: 30px;"></div>
+    <div class="col-md-6">
+        <p>
+            With a clean, responsive design and carefully selected soft colors, the chat is not only attractive but also provides encryption and security features.
+        </p>
+        <div style="clear: both; height: 10px;"></div>
+        <p>
+            The site is under constant development, along with the app that is coming soon!
+        </p>
+        <div style="clear: both; height: 10px;"></div>
+        <p>
+            <strong>Technologies used on the site:</strong> HTML5, CSS3, a bit of jQuery, and a lot of JavaScript.
+        </p>
+        <p>
+            <strong>Technologies used in the API:</strong> Pure PHP (without frameworks) and a bit of Python for some tasks.
+        </p>
+        <p>
+            <strong>Technology for the apps (under development) Android and iOS:</strong> Flutter.
+        </p>
+    </div>
+    <div class="col-md-6">
+        <img src="img/work/chat/chat-1.png" class="img-responsive" style="width: 100%;">
+    </div>
+</div>
+<div style="clear: both; height: 15px;"></div>
+<hr>
+<div style="clear: both; height: 15px;"></div>
+<div class="row">
+    <div class="col-md-5">
+        <img src="img/work/security/security.png" class="img-responsive" style="width: 100%;">
+    </div>
+    <div class="col-md-7">
+        <h2>WhiteHats Security 1.0.0</h2>
+        <div style="clear: both; height: 15px;"></div>
+        <p>
+            Lock your computer from anywhere, run programs and commands.
+            <br>
+            You can also schedule it to shut down whenever you want.
+        </p>
+        <p>
+            Soon, we will bring new features like taking screenshots of your computer and many more security systems.
+        </p>
+
+        <!--<div style="clear: both; height: 30px;"></div>-->
+        <div style="clear: both; height: 15px;"></div>
+        <div class="row">
+            <div class="col-md-4">
+                <img class="img-responsive" src="img/esp32.jpg">
+            </div>
+            <div class="col-md-8">
+                <p>
+                    <!--We provide, completely free, codes for integration with IoT devices using ESP32 and Arduino control with Bluetooth-->
+                    We provide, completely free, codes for integration with Arduino devices using Bluetooth.
+                </p>
+                <p>
+                    <!--Control your home devices, alarms, standard and RGB LEDs, machines, and everything else you want with ESP32 and our app-->
+                    Control your home devices, alarms, standard and RGB LEDs, machines, and everything else you want with Arduino or Windows and our app.
+                </p>
+            </div>
+        </div>
+
+        <div style="clear: both; height: 15px;"></div>
+        <h4>Downloads:</h4>
+        <div style="clear: both; height: 15px;"></div>
+        <p>
+            App: <a target="_blank" href="https://whitehats.com.br/download/app-debug.apk">https://whitehats.com.br/download/app-debug.apk</a>
+            <!--App: <a target="_blank" href="https://play.google.com/store/apps/details?id=br.com.whitehats.security">https://play.google.com/store/apps/details?id=br.com.whitehats.security</a>-->
+        </p>
+        <p>
+            Windows Program: <a target="_blank" href="https://whitehats.com.br/download/WhiteHats%20Security%201.0.0.zip">https://whitehats.com.br/download/WhiteHats%20Security%201.0.0.zip</a>
+        </p>
+        <!--<p>
+            Code for ESP32: <a target="_blank" href="https://github.com/flaviopavim/arduino/blob/main/ESP32/central.cpp">https://github.com/flaviopavim/arduino/blob/main/ESP32/central.cpp</a>
+        </p>-->
+        <p>
+            Code for Arduino with Bluetooth module: <a target="_blank" href="https://github.com/flaviopavim/bluetooth-control-arduino-pro-mini">https://github.com/flaviopavim/bluetooth-control-arduino-pro-mini</a>
+        </p>
+    </div>
+</div>
+<div style="clear: both; height: 30px;"></div>
+
+        
+        
+        
         <div class="row">
             <div class="col-md-12">
                 <h2>VMG Guindastes APP</h2>

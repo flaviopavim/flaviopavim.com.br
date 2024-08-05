@@ -4,7 +4,7 @@ var stars = [];
 
 // Function to create and draw stars
 function createStars() {
-    for (let i = 0; i < 500; i++) {
+    for (let i = 0; i < 600; i++) {
         const x = Math.random() * stars_canvas.width;
         const y = Math.random() * stars_canvas.height;
         const size = Math.random() * 2; // Random star size
