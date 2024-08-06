@@ -321,27 +321,27 @@ $(function () {
 });
 
 $(window).keyup(function (e) {
-    if (e.keyCode === 39) {
-        goNext();
-    }
-    if (e.keyCode === 27) {
-        closeMe();
-    }
-    if (e.keyCode === 49) {
-        openHome();
-    }
-    if (e.keyCode === 50) {
-        openSkills();
-    }
-    if (e.keyCode === 51) {
-        openWorks();
-    }
-    if (e.keyCode === 52) {
-        openVideos();
-    }
-    if (e.keyCode === 53) {
-        openContact();
-    }
+//    if (e.keyCode === 39) {
+//        goNext();
+//    }
+//    if (e.keyCode === 27) {
+//        closeMe();
+//    }
+//    if (e.keyCode === 49) {
+//        openHome();
+//    }
+//    if (e.keyCode === 50) {
+//        openSkills();
+//    }
+//    if (e.keyCode === 51) {
+//        openWorks();
+//    }
+//    if (e.keyCode === 52) {
+//        openVideos();
+//    }
+//    if (e.keyCode === 53) {
+//        openContact();
+//    }
 });
 
 function map(x, in_min, in_max, out_min, out_max) {
